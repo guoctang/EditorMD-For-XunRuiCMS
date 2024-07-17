@@ -1,37 +1,14 @@
 # EditorMD For XunRuiCMS
 
-#### 介绍
-为迅睿CMS适配了一个开源的编辑器：Editor.md
+# 介绍
+Editor.md 是一款：（以下摘选自官网）[^1]
+>- 支持“标准”Markdown / CommonMark和Github风格的语法，也可变身为代码编辑器；
+>- 支持实时预览、预格式文本/代码/表格插入、代码折叠、搜索替换、只读模式和多语言语法高亮等功能；
+>- 支持ToC（Table of Contents）、Task lists、@链接等Markdown扩展语法；
+>- 支持TeX科学公式（基于KaTeX）、流程图 Flowchart 和 时序图 Sequence Diagram;
+>- 支持识别和解析HTML标签，并且支持自定义过滤标签解析，具有可靠的安全性和几乎无限的扩展性；
+>- 兼容主流的浏览器（IE8+）和Zepto.js，且支持iPad等平板设备；[^1]
 
-#### 软件架构
-软件架构说明
+[^1]: https://pandao.github.io/editor.md/ "Editor.md - 开源在线 Markdown 编辑器"
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+主要是作了适配，欢迎大家的下载~
