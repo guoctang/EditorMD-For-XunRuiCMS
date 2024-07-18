@@ -1,5 +1,7 @@
 # EditorMD For XunRuiCMS
 
+![EditorMD For XunRuiCMS](https://img.chenyande.com/i/2024/07/17/08aef3deee77d3cde194f1a98d4db55b.png)
+
 # 介绍
 Editor.md 是一款：（以下摘选自官网）[^1]
 >- 支持“标准”Markdown / CommonMark和Github风格的语法，也可变身为代码编辑器；
