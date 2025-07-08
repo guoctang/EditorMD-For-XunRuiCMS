@@ -1,0 +1,61 @@
+{template "header.html"}
+<div class="note note-danger">
+    <p>请用以下代码替代 show.html 的内容输出部分<small>（以 $content 字段实例，其他字段请自行更换）</small></p>
+</div>
+
+<div class="portlet portlet-sortable light bordered">
+
+    <div class="portlet-title tabbable-line">
+        <div class="caption">
+            <i class="bi bi-markdown-fill"></i>
+            <span class="caption-subject">以 Markdown 格式输出</span>
+        </div>
+    </div>
+
+    <div class="portlet-body">
+        <textarea class="form-control" readonly style="height: 41px; width: 100%">&lcub;$content&rcub;</textarea>
+    </div>
+
+</div>
+
+<div class="portlet portlet-sortable light bordered">
+
+    <div class="portlet-title tabbable-line">
+        <div class="caption">
+            <i class="fa fa-html5"></i>
+            <span class="caption-subject">以 HTML 格式输出</span>
+        </div>
+    </div>
+
+    <div class="portlet-body">
+        <textarea class="form-control" readonly style="height: 520px; width: 100%">
+            &lt;script src="../static/EditorMD/examples/js/jquery.min.js"&gt;&lt;/script&gt;
+            &lt;script src="../static/EditorMD/lib/marked.min.js"&gt;&lt;/script&gt;
+            &lt;script src="../static/EditorMD/lib/prettify.min.js"&gt;&lt;/script&gt;
+            &lt;script src="../static/EditorMD/lib/raphael.min.js"&gt;&lt;/script&gt;
+            &lt;script src="../static/EditorMD/lib/underscore.min.js"&gt;&lt;/script&gt;
+            &lt;script src="../static/EditorMD/lib/sequence-diagram.min.js"&gt;&lt;/script&gt;
+            &lt;script src="../static/EditorMD/lib/flowchart.min.js"&gt;&lt;/script&gt;
+            &lt;script src="../static/EditorMD/lib/jquery.flowchart.min.js"&gt;&lt;/script&gt;
+            &lt;script src="../static/EditorMD/editormd.min.js"&gt;&lt;/script&gt;
+        
+            &lt;div id="gct_show_editormd"&gt;
+            　　&lt;textarea style="display:none;" placeholder="markdown语言"&gt; &lcub;$content&rcub; &lt;/textarea&gt;
+            &lt;/div&gt;
+        
+            &lt;script&gt;
+                editormd.markdownToHTML("gct_show_editormd", {
+                    htmlDecode      : "style,script,iframe",  
+                    emoji           : true,
+                    taskList        : true,
+                    tex             : true,  // 默认不解析
+                    flowChart       : true,  // 默认不解析
+                    sequenceDiagram : true  // 默认不解析
+                });
+            &lt;/script&gt;
+        </textarea>
+    </div>
+    
+</div>
+
+{template "footer.html"}
