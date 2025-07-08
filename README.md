@@ -1,6 +1,7 @@
 # EditorMD For XunRuiCMS
 
-![EditorMD For XunRuiCMS](https://img.chenyande.com/i/2024/07/17/08aef3deee77d3cde194f1a98d4db55b.png)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Release](https://img.shields.io/badge/Release-1.2-blue.svg)
 
 # 介绍
 Editor.md 是一款：（以下摘选自官网）[^1]
