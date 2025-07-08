@@ -23,7 +23,7 @@ Editor.md 是一款：（以下摘选自官网）[^1]
 1. 通过迅睿CMS插件市场直接安装
 
 ### 方式二
-1. 下载并解压插件
+1. 下载并解压本插件
 2. 将 APPSPATH 文件夹里的内容上传到插件文件夹（默认是 /dayrui/App 文件夹）
 3. 将 CSSPATH 文件夹里边的内容上传到静态资源文件夹，（有 public 文件夹就放到 /public/static 文件夹，没有 public 文件夹就放到 /static 文件夹）
 
